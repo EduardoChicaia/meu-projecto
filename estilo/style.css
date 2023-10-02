@@ -35,10 +35,11 @@ header > ul a {
 }
 header > p {
     padding-top: 0px;
+    font-size: 1.1em;
 }
 main {
-    padding: 20px;
-    position: absolute;
+
+    position: relative;
     background-color: white;
     height: 100vh;
     width: 90vw;
@@ -47,10 +48,10 @@ main {
 main > p {
     text-align: center;
     padding-top: 7px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 section {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -58,6 +59,91 @@ section {
     height: 80vh;
     width: 70vw;
 }
+section {
+    background-image: url('../imagens/pexels-sora-shimazaki-5926393.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+footer {
+    background-color: white;
+} 
+footer > p {
+    padding: 10px;
+    text-align: center;
+}
+main#web {
+    
+    background-color: #D6D6D6;
+    padding: 10px;
+}
+article#web1 {
+    
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+}
+#web1 > .dev {
+    border-bottom: 3px dotted rgba(106, 136, 79, 0.963);
+    color: rgba(72, 69, 69, 0.966);
+    padding-bottom: 10px;
+    font-size: 1.4em;
+}
+#web1 > .desig{
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+figure {
+    float: right;
+}
+figure > figcaption  {
+    text-align: center;
+}
+#web1 > .stron {
+    font-size: 1.3em;
+    background-image: linear-gradient(to right,  #d6d6d6, transparent);
+    display: block;
+}
+#tex {
+    float: left;
+    background-image: url('../imagens/respons.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    height: 120px;
+    width: 127px;
+}
+#ter {
+    float: right;
+    background-image: url('../imagens/escaniab.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+#true {
+    float: left;
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+#terça {
+    float: right;
+    background-image: url('../imagens/veloci.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    height:167px;
+    width: 170px;
+}
+
+
 
 
     
