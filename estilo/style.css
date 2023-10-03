@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*/  #E3CCE3
+/*  #E3CCE3
     #EDD5E1
     #D6D6D6
     #EDD9D5
@@ -11,6 +11,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #525252;
 }
 body {
     background-color: #D6D6D6;
@@ -18,26 +19,41 @@ body {
 header {
     background-color: white;
     padding: 10px;
+    margin: 0px 15px 25px 15px;
+    height: 170px;
+    border: 1 solid #525252;
+    box-shadow: 3px 3px 10px #525252c1;
     
 }
 header > ul  {
     text-align: center;
-    margin: 5px;
-    display: block;
+    width: 100vw;
+    padding-bottom: 10px;
+    height: 50px;
 }
 header > ul li {
     display: inline;
     margin: 7px;
+   
+}
+header > ul li:hover {
+    border-bottom:1px solid red;
+    
 }
 header > ul a {
-   text-decoration: none;
-   color: rgba(0, 0, 0, 0.733);
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+header > ul a:hover {
+    color: red;
 }
 header > p {
     padding-top: 0px;
     font-size: 1.1em;
+    display: block;
+    padding-bottom: 80px;
 }
-main {
+main#prince {
 
     position: relative;
     background-color: white;
@@ -45,12 +61,18 @@ main {
     width: 90vw;
     margin: auto;
 }
-main > p {
-    text-align: center;
-    padding-top: 7px;
-    font-size: 1em;
+main#prince {
+    margin-bottom: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 0px 10px #787575a0;
 }
-section {
+main#prince > p {
+    text-align: center;
+    font-size: 1em;
+    padding: 13px 10px 13px;
+}
+section#prince1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,8 +80,9 @@ section {
     background-color: blueviolet;
     height: 80vh;
     width: 70vw;
+    
 }
-section {
+section#prince1 {
     background-image: url('../imagens/pexels-sora-shimazaki-5926393.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,6 +95,9 @@ footer > p {
     padding: 10px;
     text-align: center;
 }
+/*
+  inicio da area de web desing
+*/
 main#web {
     
     background-color: #D6D6D6;
@@ -142,8 +168,24 @@ figure > figcaption  {
     height:167px;
     width: 170px;
 }
-
-
-
-
+/*
+  inicio da area de progração web
+*/
+#prog {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+#prog1 {
+    background-color: white;
+    height: 2635px;
+    width: 75vw;
+}
+.ter {
+    text-align: justify;
+    padding: 10px;
+    line-height: 2em;
+    font-size: 1.3em;
     
+}
