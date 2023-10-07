@@ -13,8 +13,10 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #525252;
 }
-body {
+body, html {
     background-color: #D6D6D6;
+    margin: 0px;
+    padding: 0px;
 }
 header {
     background-color: white;
@@ -27,14 +29,12 @@ header {
 }
 header > ul  {
     text-align: center;
-    width: 100vw;
     padding-bottom: 10px;
-    height: 50px;
+    
 }
 header > ul li {
     display: inline;
-    margin: 7px;
-   
+    margin: 7px;   
 }
 header > ul li:hover {
     border-bottom:1px solid red;
@@ -42,7 +42,6 @@ header > ul li:hover {
 }
 header > ul a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.733);
 }
 header > ul a:hover {
     color: red;
@@ -99,15 +98,16 @@ footer > p {
   inicio da area de web desing
 */
 main#web {
-    
+    position: relative;
     background-color: #D6D6D6;
     padding: 10px;
 }
 article#web1 {
-    
+    width: 82vw;
     background-color: white;
     padding: 10px;
     margin: auto;
+    height: 4230px;
 }
 #web1 > .dev {
     border-bottom: 3px dotted rgba(106, 136, 79, 0.963);
@@ -129,8 +129,9 @@ figure > figcaption  {
 }
 #web1 > .stron {
     font-size: 1.3em;
-    background-image: linear-gradient(to right,  #d6d6d6, transparent);
+    background-image: linear-gradient(to right,  #181717bb, transparent);
     display: block;
+    color: white;
 }
 #tex {
     float: left;
@@ -140,6 +141,7 @@ figure > figcaption  {
     background-size: cover;
     height: 120px;
     width: 127px;
+    padding: 10px;
 }
 #ter {
     float: right;
@@ -147,7 +149,7 @@ figure > figcaption  {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
-    height: 150px;
+    height: 145px;
     width: 200px;
 }
 #true {
@@ -176,11 +178,14 @@ figure > figcaption  {
     height: 200px;
     width: 200px;
     float: right;
+    
+
 }
 #prog1 {
     background-color: white;
     height: 2635px;
     width: 75vw;
+ 
 }
 .ter {
     text-align: justify;
